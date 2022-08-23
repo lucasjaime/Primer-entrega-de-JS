@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.boton{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 35vh;
+    gap: 10vh;
+}
+.boton button{
+    padding: 5vh;
+    background-color: rgb(80, 80, 80);
+    border-radius: 8%;
+    border: none;
+    filter: drop-shadow(10px 10px 4px black);
+    cursor: pointer;
+    transition: 0.4s;
+}
+.boton button:hover {
+    filter: drop-shadow(10px 10px 4px rgb(121, 0, 0));
+    transition: 0.4s;
+    transform: scale(1.1);
+}
+.boton button a{
+    font-size: 4vh;
+    text-decoration: none;
+    color: white;
+}

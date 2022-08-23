@@ -28,6 +28,7 @@ do{
                 alert('Por favor introduce una respuesta válida')
             }
         }while(verRespuesta)
+        respuestaC = false
     }else if(respuestaI.toLowerCase() == 'si'){
         alert('Felicidades, sos brillante!!')
         respuestaC = false
